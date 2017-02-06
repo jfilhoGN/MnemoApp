@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MnemoApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_desenvolvedores">Desenvolvedores</string>
+    <string name="title_activity_about">Desenvolvedores</string>
+    <string name="desenvolvimento">Desenvolvimento</string>
+    <string name="design">Design</string>
+    <string name="debson_picinin">Debson Picinin</string>
+    <string name="contato_contato_com_br">contato@contato.com.br</string>
+    <string name="jo_o_martins_filho">João Martins Filho</string>
+    <string name="joaomfilho1995_gmail_com">joaomfilho1995@gmail.com</string>
+    <string name="textos_e_design">Textos e Design</string>
+    <string name="Desenvolvedores" />
+</resources>
