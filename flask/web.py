@@ -16,14 +16,15 @@ def index():
 
 @app.route('/historia')
 def historia():
-   cur = mysql.connection.cursor()
-   cur.execute("select * from historia_historia")
-   row_headers=[x[0] for x in cur.description] #this will extract row headers
-   rv = cur.fetchall()
-   json_data=[]
-   for result in rv:
+    cur = mysql.connection.cursor()
+    cur.execute("select * from historia_historia")
+    row_headers=[x[0] for x in cur.description] #this will extract row headers
+    rv = cur.fetchall()
+    json_data=[]
+    for result in rv:
         json_data.append(dict(zip(row_headers,result)))
-   return json.dumps(json_data)
+    return jsonify({'historia': json_data})
+   #return json.dumps(json_data)
 
 
 if __name__ == '__main__':

@@ -24,7 +24,7 @@ export class CallHistoriaProvider {
     return new Promise(resolve => {
       this.http
         .get(
-          `https://api.tvmaze.com/singlesearch/shows?q=the-walking-dead&embed=episodes`
+          `http://localhost:5000/historia`
         )
         .map(res => res.json())
         .subscribe(data => {

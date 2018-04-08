@@ -23,7 +23,8 @@ export class HomePage {
     this.callHistoria.load()
       .then(data => {
         this.obj = data;
-        this.result = this.obj._embedded.episodes;
+        this.result = this.obj.historia;
+        //console.log(this.obj.historia.titulo);
       });
   }
 
