@@ -28,9 +28,4 @@ export class HomePage {
       });
   }
 
-  sort(){
-    this.descending = !this.descending;
-    this.order = this.descending ? 1 : -1;
-  }
-
 }

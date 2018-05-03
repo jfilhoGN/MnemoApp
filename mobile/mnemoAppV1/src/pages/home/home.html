@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>MnemoApp</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="home">
+    <ion-list>
+        <ion-item (click)="getDetalhes(historia.id)"  *ngFor="let historia of result | search : terms | sort: {property: column, order: order}">
+         <ion-avatar item-left *ngIf="historia.url_capa != null">
+           <img src="{{historia.url_capa}}">
+         </ion-avatar>
+         <h2>{{historia.titulo}}</h2>
+       </ion-item>
+     </ion-list>
+</ion-content>

@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Sociologia</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+      <ion-item (click)="getDetalhes(sociologia.id)"  *ngFor="let sociologia of result | search : terms | sort: {property: column, order: order}">
+       <ion-avatar item-left *ngIf="sociologia.url_capa != null">
+         <img src="{{sociologia.url_capa}}">
+       </ion-avatar>
+       <h2>{{sociologia.titulo}}</h2>
+     </ion-item>
+   </ion-list>
+</ion-content>
