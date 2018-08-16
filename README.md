@@ -2,6 +2,20 @@
 
 Desenvolvimento de um aplicativo móvel para as disciplinas de História, Filosofia e Sociologia
 
+## Telas
+
+- Acesso do professor para cadastro de novos conteúdos
+<div style="text-align:center"><img src ="/layout/admin.png" /></div>
+
+- Tela de Apresentação do Aplicativo
+<div style="text-align:center"><img src ="/layout/app1.png" /></div>
+
+- Tela com os conteúdos da disciplina Filosofia
+<div style="text-align:center"><img src ="/layout/app2.png" /></div>
+
+- Tela com o conteúdo clicado pelo usuário (Friedrich Nietzsche)
+<div style="text-align:center"><img src ="/layout/app3.png" /></div>
+
 Autores:
 
 	João Martins Filho

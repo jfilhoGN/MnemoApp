@@ -80,8 +80,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mnemoapp',
-        'USER': 'root',
-        'PASSWORD': 'asafaster',
+        'USER': 'mnemoapp',
+        'PASSWORD': 'mnemoapp',
         'HOST': '127.0.0.1',
         'PORT': '3306'
     }

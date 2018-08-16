@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {CallHistoriaProvider} from "../../providers/call-historia/call-historia";
-import {HistoriaDetalhes} from "/home/jfilhogn/Documentos/Git/MnemoApp/mobile/mnemoAppV1/src/app/models/historiaDetalhes";
+import {HistoriaDetalhes} from "/home/jfilho/Documentos/Git/MnemoApp/mobile/mnemoAppV1/src/app/models/historiaDetalhes";
 
 /**
  * Generated class for the DetalhesHistoriaPage page.

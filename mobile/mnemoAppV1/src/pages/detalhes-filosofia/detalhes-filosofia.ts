@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {CallFilosofiaProvider} from "../../providers/call-filosofia/call-filosofia";
-import {FilosofiaDetalhes} from "/home/jfilhogn/Documentos/Git/MnemoApp/mobile/mnemoAppV1/src/app/models/filosofiaDetalhes";
+import {FilosofiaDetalhes} from "/home/jfilho/Documentos/Git/MnemoApp/mobile/mnemoAppV1/src/app/models/filosofiaDetalhes";
 
 /**
  * Generated class for the DetalhesFilosofiaPage page.

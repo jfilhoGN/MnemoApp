@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {CallSociologiaProvider} from "../../providers/call-sociologia/call-sociologia";
-import {SociologiaDetalhes} from "/home/jfilhogn/Documentos/Git/MnemoApp/mobile/mnemoAppV1/src/app/models/sociologiaDetalhes";
+import {SociologiaDetalhes} from "/home/jfilho/Documentos/Git/MnemoApp/mobile/mnemoAppV1/src/app/models/sociologiaDetalhes";
 
 /**
  * Generated class for the DetalhesSociologiaPage page.
